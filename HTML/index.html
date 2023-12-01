@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta name="viewport"content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="College Mate , place to search for studies within Odisha">
+    <meta name="keywords" content="College Mate">
+    <title>College Mate | Home</title>
+    
+    <link rel="stylesheet" href="../css/home_style.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../image/Logo1.png" id="logo-img"></a>
+
+            <div class="text-box">
+                <h1>College Mate</h1>
+            </div>
+
+              <div class="nav-links" id="navLinks">
+                <span class="icon" onclick="hidemenu()">&#10005;</span>
+                <ul>
+					<li><a href="index.html">Home</a></li>
+                    <li><a href="#course_call">Courses</a></li>
+                    <li><a href="College_page.html">Colleges</a></li>
+                    <li><a href="Contact_page.html">Contact</a></li>
+				</ul>
+            </div> 
+            <span class="icon" onclick="showmenu()">&#9776;</span>
+        </nav>
+       
+    </section>
+   
+    <!--Course of College-->
+
+    <p style="text-align: center;"><b>This is a project-based website where we focus basically on best colleges in the State "Odisha".</b></p>
+
+    <section class="course" id="course_call">
+        <h1>Course Details</h1>
+        <h3>Here we aim to provide a detailed guide related.<br>Below are the offered courses :</br></h3>
+
+        <div class="row">
+            <div class="course-col"><a href="College_page.html#b.arts">
+                <h2>BArts</h2>
+                *<p>BA (Bachelor of Arts) is a versatile undergraduate degree typically lasting three to four years, covering a broad range of liberal arts subjects, including humanities, social sciences, and fine arts. It emphasizes critical thinking, communication skills, and cultural understanding, often allowing students to choose a major or concentration in a specific field of study. BA programs may require a combination of coursework, research, and electives, and they vary by institution and country.</p>
+                </a>
+            </div>
+
+            <div class="course-col">
+                <h2>B-Tech</h2>
+                *<p>B.Tech (Bachelor of Technology) is a four-year undergraduate degree program in engineering and technology. It typically includes a blend of theoretical knowledge and practical skills, with a focus on various engineering disciplines such as civil, mechanical, electrical, computer science, and more. B.Tech programs often require students to complete a final-year project or internship, and graduates can pursue careers in engineering, research, or technology-related fields.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>BBA</h2>
+                *<p>BBA (Bachelor of Business Administration) is a 3 to 4-year undergraduate program that provides a comprehensive understanding of business principles, management, and leadership. It typically covers subjects like accounting, marketing, finance, and organizational behavior, preparing students for careers in various business sectors. BBA programs often include internships or practical experience to enhance real-world skills.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>B.Com</h2>
+                *<p>B.Com (Bachelor of Commerce) is a 3-year undergraduate degree program that focuses on various aspects of business, finance, and economics. Students typically study subjects such as accounting, taxation, economics, and management. B.Com graduates often pursue careers in finance, accounting, marketing, and business management.</p>
+            </div>
+
+            <div class="course-col">
+                <h2>B.Sc</h2>
+                *<p>B.Sc (Bachelor of Science) in IT is basically about storing, processing, securing, and managing information. This degree is primarily focused on subjects such as software, databases, and networking.</p>
+            </div>
+            <div class="course-col">
+                <h2>MBBS</h2>
+                *<p>A MBBS (Bachelor of Medicine, Bachelor of Surgery) is a professional undergraduate degree program that typically spans 5-6 years, training students to become medical doctors. It includes both theoretical coursework and clinical rotations, focusing on medical science and patient care. Upon completion, graduates are eligible to practice medicine.</p>
+            </div>
+
+        </div>
+    </section>
+
+        <!--Call To Action Section-->
+
+        <section class="ctn">
+
+        </section>
+
+         <!--Footer-->
+         <section class="footer">
+            <a href="Contact_page.html" class="hero-btn">Contact Us</a>
+             <h4>About Us</h4>
+            <p><b><u>CollegeMate:</u></b> Connecting students and fostering a collaborative learning community for a brighter academic journey.<br>About :- hey mates !  This website give u a platform where u can find your path towards your dream i.e a dream college .<br>We take your information and we suggest u best universities for the line you are capable of and dreaming for , we also give you the basic criteria of the universities as needed .</p>
+            <p></p>
+             <div id="copyright"></div>
+             <h5>&copy;All Copyrights Reserved ~ Designed by <ul><li><a href="Home">CollegeMate</a></li></ul></h5>
+         </section>
+
+    <!--Javascript is Start-->
+    <script src="javascript/main_script.js"></script>
+
+        <!--Chatbot-->
+            <link rel="stylesheet" href="../chatbot/collegechatbot.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Google Fonts Link For Icons -->
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+            <script src="../chatbot/collegechatbot..js" defer></script>
+          <body>
+            <button class="chatbot-toggler">
+              <span class="material-symbols-rounded"><img src="../chatbot/images/Logo1.png"></span>
+              <span class="material-symbols-outlined">close</span>
+            </button>
+            <div class="chatbot">
+              <header>
+                <img src="../chatbot/images/Logo1.png">
+                <h2>College Mate</h2>
+                <span class="close-btn material-symbols-outlined">close</span>
+              </header>
+              <ul class="chatbox">
+                <li class="chat incoming">
+                  <span class="material-symbols-outlined"><img src="../chatbot/images/Logo1.png"></span>
+                  <div id="chatting" class="chatting">
+                    <ul id="listUL">
+                      
+                    </ul>
+                </div>
+                </li>
+              </ul>
+              <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="true" required></textarea>
+                <span id="send-btn" class="material-symbols-rounded">send</span>
+              </div>
+            </div>
+</html>
