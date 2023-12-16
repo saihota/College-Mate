@@ -43,8 +43,10 @@ body::-webkit-scrollbar-thumb {
     border-radius: 1px !important;
 }
 body{
- background-image: linear-gradient(#B2FEFA #0ED2F7);
-  
+ background-image: linear-gradient(2000deg,#B2FEFA,#F4C4F3);
+ font-family: "Segoe UI", sans-serif;
+ font-size: 1rem;
+ line-height: 1.5;
 }
 .header{
   min-height: 90vh;
@@ -144,15 +146,6 @@ html {
 html,
 body {
   height: inherit;
-}
-body {
-  font-family: "Segoe UI", sans-serif;
-  font-size: 1rem;
-  line-height: 1.5;
-  background-color: #121014;
-  background-color: #000;
-  /* Demo only */
-  /* --------- */
 }
 img,
 svg {
