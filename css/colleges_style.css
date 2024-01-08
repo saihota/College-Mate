@@ -108,7 +108,6 @@ nav img{
   text-align: center;
 }
 .text-box h1{
-  top: ;
   font-size: 62px;
   font-weight: bold;
   text-decoration: none;
@@ -131,6 +130,10 @@ h2{
   text-align: center;
   font-size: 36px;
   padding-bottom: 40px;
+  text-shadow: 0 0 0px #fff, 0 0 50px #0081bc, 0 0 50px#B2FEFA , 0 0 50px #0081bc;
+}
+p{
+  width: 311px;
 }
 /* Base | Reset */
 *,
@@ -261,7 +264,7 @@ a {
     grid-column: -1 /-1;
     display: block;
     position: relative;
-    top: 35%;
+    top: 45%;
     z-index: 2;
     translate: 0 -50%;
     border-radius: 2cm;
@@ -271,8 +274,7 @@ a {
     transition: scale 250ms, opacity 250ms, visibility 250ms;
   }
   figure img{
-    top: 250cm;
-    width: 25vw;
+    width: 30vw;
     height: 33vh;
 
   }
